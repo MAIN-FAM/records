@@ -12,6 +12,7 @@ import taskListsPlugin from "./lib/task-lists.js";
 import highlight from "./lib/highlight.js";
 import { EMOJI_MAP } from "./lib/emoji-map.js";
 import footnotesPlugin from "./lib/footnotes.js";
+import { nmsGlyphPlugin } from "./lib/nms-glyphs.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -114,6 +115,9 @@ function createMarkdownInstance(pagesMap, baseHref) {
 
   // Monochrome emoji plugin - :b:smile: renders as monochrome via Noto Emoji font
   md.use(monotoneEmojiPlugin);
+
+  // NMS Glyph plugin - :glyph-sunset: renders NMS portal glyph icons
+  md.use(nmsGlyphPlugin);
 
   return md;
 }

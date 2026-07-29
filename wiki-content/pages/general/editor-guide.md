@@ -61,6 +61,32 @@ line-art appearance. All 1,900+ GitHub-compatible shortcodes are supported.
 > The examples above use HTML to show the different styles. When you write
 > `:m:smile:` in your own pages, it will render using the monochrome font.
 
+## NMS Portal Glyphs
+
+Use `:glyph-<name>:` shortcodes to render No Man's Sky portal glyph icons inline:
+
+| Shortcode         | Renders              |
+|-------------------|----------------------|
+| `:glyph-sunset:`  | :glyph-sunset:   |
+| `:glyph-bird:`    | :glyph-bird:     |
+| `:glyph-face:`    | :glyph-face:     |
+| `:glyph-diplo:`   | :glyph-diplo:    |
+| `:glyph-eclipse:` | :glyph-eclipse:  |
+| `:glyph-balloon:` | :glyph-balloon:  |
+| `:glyph-boat:`    | :glyph-boat:     |
+| `:glyph-bug:`     | :glyph-bug:      |
+| `:glyph-dragonfly:`| :glyph-dragonfly:|
+| `:glyph-galaxy:`  | :glyph-galaxy:   |
+| `:glyph-voxel:`   | :glyph-voxel:    |
+| `:glyph-fish:`    | :glyph-fish:     |
+| `:glyph-tent:`    | :glyph-tent:     |
+| `:glyph-rocket:`  | :glyph-rocket:   |
+| `:glyph-tree:`    | :glyph-tree:     |
+| `:glyph-atlas:`   | :glyph-atlas:    |
+
+> [!TIP]
+> You can also use the hex index: `:glyph-0:` through `:glyph-F:` for the same 16 glyphs in order.
+
 ## Footnotes
 
 Use footnotes to add citations and references. Click the FN button or type the syntax manually:
